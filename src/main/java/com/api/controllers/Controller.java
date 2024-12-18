@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://rayimanoj8.github.io/todo-react/")
+@CrossOrigin(origins = "*")
 public class Controller {
     @Autowired
     public ToDoService service;
